@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" type = "text/css">
+    <title>Discover the top streamed music and songs online on Soundcloud</title>
+</head>
+<body>
+    <header>
+        <div class = "header">
+            <div class = "header-left">
+                <div class = "logo">
+                    <a href="/" class = "logo-icon">SOUNDCLOUD</a>
+                    <a href="/" class = "logo-text">SOUNDCLOUD</a>                
+                </div>
+
+                <nav class = "nav-left">
+                    <ul class = "nav-menu select" >
+                        <li>
+                            <a class="nav-menu-item selected" href="">Home</a>
+                        </li>
+                        <li>
+                            <a class="nav-menu-item" href="">Stream</a>
+                        </li>
+                        <li>
+                            <a class="nav-menu-item" href="">Library</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class = "header-middle">
+            </div>
+
+            <div class = "header-right">
+                <div class = "login-menu">
+                    <button class = "sign-in" type = "button">Sign in</button>
+                    <button class = "sign-up" type = "button">Create account</button>
+                </div>
+
+                <div class = "upload">
+                    <a href="" class = "upload">
+                        <span class = "upload">Upload</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class = "container">
+        <div class ="content">
+            <ul class = "content-list">
+                <li>
+                    <div class="title">
+                        <h2 class="title-text">Charts: Top 50</h2>
+                        <p class = "description">The most played tracks on SoundCloud this week</p>
+                    </div>
+
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">All music genres</a>
+                                    <div class = "name">Top 50</div>
+                                </div>
+                            </li>
+
+                            <li id="2" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Global Beats</a>
+                                    <div class = "name">Top 50</span>
+                                </div>
+                            </li>
+
+                            <li id="3" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-i3PJdBHDTHcM2AIW-uZMVvw-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Hip-hop & Rap</a>
+                                    <div class = "name">Top 50</span>
+                                </div>
+                            </li>
+
+                            <li id="4" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-7nmc0L048KDmtv7Q-aSOK7A-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Pop</a>
+                                    <div class = "name">Top 50</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="title">
+                        <h2 class="title-text">Charts: New & hot</h2>
+                        <p class = "description">Up-and-coming tracks on SoundCloud</p>
+                    </div>
+
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">All music genres</a>
+                                    <div class = "name">New & hot</div>
+                                </div>
+                            </li>
+
+                            <li id="2" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-fuj9h8JG5gy2AHoO-zrH3nQ-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Global Beats</a>
+                                    <div class = "name">New & hot</span>
+                                </div>
+                            </li>
+
+                            <li id="3" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-i3PJdBHDTHcM2AIW-uZMVvw-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Hip-hop & Rap</a>
+                                    <div class = "name">New & hot</span>
+                                </div>
+                            </li>
+
+                            <li id="4" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-7nmc0L048KDmtv7Q-aSOK7A-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Pop</a>
+                                    <div class = "name">New & hot</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li> 
+                    <div class="title">
+                        <h2 class="title-text">Study</h2>
+                        <p class = "description">Popular playlists from the SoundCloud community</p>
+                    </div>
+
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000446064162-wdgv66-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Jazz hip 4</a>
+                                    <div class = "name">soo</div>
+                                </div>
+                            </li>
+
+                            <li id="2" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000208627636-q5rfpn-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">lofi 4 studying</a>
+                                    <div class = "name">suri</span>
+                                </div>
+                            </li>
+
+                            <li id="3" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000446064162-wdgv66-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">rainy day chill</a>
+                                    <div class = "name">soo</span>
+                                </div>
+                            </li>
+
+                            <li id="4" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000208627636-q5rfpn-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Stella's Coffee House</a>
+                                    <div class = "name">Mah</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="title">
+                        <h2 class="title-text">Party</h2>
+                        <p class = "description">Popular playlists from the SoundCloud community</p>
+                    </div>
+
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000252155990-aqgzx6-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Summer 2k17</a>
+                                    <div class = "name">lilly manning</div>
+                                </div>
+                            </li>
+
+                            <li id="2" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000252155990-aqgzx6-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Summer 2k17</a>
+                                    <div class = "name">lilly manning</span>
+                                </div>
+                            </li>
+
+                            <li id="3" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000252155990-aqgzx6-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Summer 2k17</a>
+                                    <div class = "name">lilly manning</span>
+                                </div>
+                            </li>
+
+                            <li id="4" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000252155990-aqgzx6-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Summer 2k17</a>
+                                    <div class = "name">lilly manning</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="title">
+                        <h2 class="title-text">Chill</h2>
+                        <p class = "description">Popular playlists from the SoundCloud community</p>
+                    </div>
+
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000388088421-5xl072-200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">| Chill | Lofi | Hiphop |</a>
+                                    <div class = "name">helennpham</div>
+                                </div>
+                            </li>
+
+                            <li id="2" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000388088421-5xl072-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">| Chill | Lofi | Hiphop |</a>
+                                    <div class = "name">helennpham</span>
+                                </div>
+                            </li>
+
+                            <li id="3" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000388088421-5xl072-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">| Chill | Lofi | Hiphop |</a>
+                                    <div class = "name">helennpham</span>
+                                </div>
+                            </li>
+
+                            <li id="4" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000388088421-5xl072-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">| Chill | Lofi | Hiphop |</a>
+                                    <div class = "name">helennpham</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="title">
+                        <h2 class="title-text">Relax</h2>
+                        <p class = "description">Popular playlists from the SoundCloud community</p>
+                    </div>
+
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000405464955-n4ge52-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Morning Chillout</a>
+                                    <div class = "name">Mighty</div>
+                                </div>
+                            </li>
+
+                            <li id="2" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000405464955-n4ge52-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Morning Chillout</a>
+                                    <div class = "name">Mighty</span>
+                                </div>
+                            </li>
+
+                            <li id="3" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000405464955-n4ge52-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Morning Chillout</a>
+                                    <div class = "name">Mighty</span>
+                                </div>
+                            </li>
+
+                            <li id="4" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000405464955-n4ge52-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Morning Chillout</a>
+                                    <div class = "name">Mighty</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="title">
+                        <h2 class="title-text">Sleep</h2>
+                        <p class = "description">Popular playlists from the SoundCloud community</p>
+                    </div>
+
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000168574912-3nhdl7-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Summer Nights</a>
+                                    <div class = "name">Serene</div>
+                                </div>
+                            </li>
+
+                            <li id="2" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000168574912-3nhdl7-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Summer Nights</a>
+                                    <div class = "name">Serene</span>
+                                </div>
+                            </li>
+
+                            <li id="3" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000168574912-3nhdl7-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Summer Nights</a>
+                                    <div class = "name">Serene</span>
+                                </div>
+                            </li>
+
+                            <li id="4" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000168574912-3nhdl7-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Summer Nights</a>
+                                    <div class = "name">Serene</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="title">
+                        <h2 class="title-text">Workout</h2>
+                        <p class = "description">Popular playlists from the SoundCloud community</p>
+                    </div>
+
+                    <div class="gallery">
+                        <ul class = "gallery-list">
+                            <li id="1" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000168574912-3nhdl7-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Summer Nights</a>
+                                    <div class = "name">Serene</div>
+                                </div>
+                            </li>
+
+                            <li id="2" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000168574912-3nhdl7-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Summer Nights</a>
+                                    <div class = "name">Serene</span>
+                                </div>
+                            </li>
+
+                            <li id="3" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000168574912-3nhdl7-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Summer Nights</a>
+                                    <div class = "name">Serene</span>
+                                </div>
+                            </li>
+
+                            <li id="4" class = "information">
+                                <img class = "image" src="https://i1.sndcdn.com/artworks-000168574912-3nhdl7-t200x200.jpg">
+                                <div class = "description">
+                                    <a href="" class = "album-description">Summer Nights</a>
+                                    <div class = "name">Serene</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class = "sidebar">
+            <div class = "sidebar-text">
+                <a href="">Legal</a>
+                &nbsp;-
+                <a href="">Privacy</a>
+                &nbsp;-
+                <a href="">Cookie Policy</a>
+                &nbsp;-
+                <a href="">Cookie Manager</a>
+                &nbsp;-
+                <a href="">Imprint</a>
+                &nbsp;-
+                <a href="">Creator Resources</a>
+                &nbsp;-
+                <a href="">Blog</a>
+                &nbsp;-
+                <a href="">Charts</a>
+                &nbsp;-
+                <div class="languages">
+                    <a href="" type="button">
+                        Languages:
+                        <span>English (US)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

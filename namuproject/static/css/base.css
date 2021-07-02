@@ -1,0 +1,343 @@
+/* Global */
+body{
+    margin: 0;
+    padding: 0;
+    font: 12px/1.4 Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    background-color: #cdcdcd4f;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+
+div {
+    display: block;
+}
+
+.left {
+    float: left;
+}
+
+.sc-list-nostyle {
+    list-style: none;
+    margin: 0;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: 100;
+    color: #999;
+    margin:0;
+    height:30px;
+}
+
+/* Header */
+header{
+    width: 100%;
+    background: #333333;
+    height: 46px;
+    display: inline-block;
+    align-items: center;
+}
+
+.header{
+    margin: 0 auto;
+    width: 1240px;
+    height: 46px;
+    display: inline-block;
+    align-items: center;
+}
+
+.header-left{
+    background: #333333;
+    display: inline-block;
+    align-items: center;
+    margin:0;
+}
+
+.logo{
+    background-color: #f70;
+    display: inline-block;
+    height: 100%;
+    width: 184px;
+}
+
+.logo-icon{
+    display: inline-block;
+    background-position-x: 12px;
+    background-position-y: center;
+    width: 60px;
+    height: 46px;
+    align-items: center;
+    color:transparent;
+}
+
+.nav-left{
+    display: inline-block;
+    height: 46px;
+    margin:0;
+}
+
+.navMenu{
+    height: 46px;
+    display: inline-block;
+    text-decoration: none;
+    padding:0;
+}
+
+.navMenu>li>a{
+    color: #ccc;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.header__navMenuItem {
+    display: inline-block;
+    color: #cccccc;
+    height: 46px;
+    width: 104px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 12px 0;
+    border-right: 1px solid #111111;
+}
+
+.selected {
+    color: #ffffff!important;
+    background-color: #111111;
+}
+
+.header-middle {
+    background: #333333;
+    display: inline-block;
+    align-items: center;
+    flex: 1;
+}
+
+form[class="search"] {
+    padding: 9px 10px 8px;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+}
+
+input[type="search"] {
+    border-radius: 4px;
+    background-color: #e5e5e5;
+    padding: 5px;
+    outline: none;
+    border: none; 
+    width: 100%;
+    height: 28px;
+    min-width: 200px;
+}
+
+.header-right {
+    background: #333333;
+    display: inline-block;
+    align-items: center;
+}
+
+.loginMenu{
+    display: flex;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.sign-in{
+    border: none;
+    border-radius: 3px;
+    height: 26px;
+    color: #ffffff;
+    background-color: #333333;
+    border: 1px solid rgb(133, 133, 133);
+    min-width: 61px;
+    padding: 2px 11px 2px 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.sign-up{
+    color: #fff;
+    background-color: #f50;
+    height: 26px;
+    border: none;
+    border-radius: 3px;
+    padding: 2px 11px 2px 10px;
+    margin-left: 10px;
+    align-items: center;
+    min-width: 110px;
+}
+
+.upload{
+    padding: 12px 10px;
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 14px;
+}
+
+.otherMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    padding: 0 12px;
+}
+
+/* Container */
+.container{
+    margin: 0 auto;
+    width: 1240px;
+    background-color: white;
+    display: flex;
+    
+}
+
+.content{
+    border-right: 1px solid rgba(66,66,66,0.1);
+    align-items: center;
+    padding-left: 30px;
+}
+
+.content-list{
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 0;
+    margin: 0;
+}
+
+.title-text{
+    margin: 0;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    line-height: 1.4;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.album-description{
+    font-size: 14px;
+    font-weight: 100;
+    color: #999999;
+    margin-top: 5px;
+    margin-bottom: 24px;
+}
+
+.gallery{
+    border-bottom: 1px solid rgba(66,66,66,0.1);
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.gallery-list{
+    display: flex;
+    padding:0;
+    margin-bottom: 2rem;
+}
+
+.album-info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.description{
+    margin-top: 15px;
+    line-height: 1.4;
+    color:#333333;
+}
+
+.username{
+    line-height: 1.4;
+    font-size: 12px;
+}
+
+.image{
+    width: 173px;
+    margin-bottom: 5px;
+}
+
+.sidebar {
+    top: 30px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.mobile {
+    padding-top: 5px;
+    position: sticky;
+    top: 20px;
+}
+
+.mobile-button {
+    border-top: 1px solid rgba(66,66,66,0.1);
+    border-bottom: 1px solid rgba(66,66,66,0.1);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    height: 40px;
+    position: sticky;
+    top: 20px;
+}
+
+.sidebar-apple{
+    width: 135px;
+    background-repeat: none;
+    background-image: url(https://a-v2.sndcdn.com/assets/images/appstore_badge-875ae97c.png);
+ 
+}
+.sidebar-google{
+    width: 115px;
+    background-image: url(https://a-v2.sndcdn.com/assets/images/google_play_badge-26379006.png);
+
+}
+
+.footer{
+    padding-top: 11px;
+    color: #ccc;
+    font-weight: 100;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    position: sticky;
+    top: 120px;
+}
+.footer>a{
+    color: #ccc;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+
+.locale-selector{
+    margin-top: 5px;
+}
+
+.locale-selector>a{
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    color: #38d;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
+.locale-selector>a>span{
+    color: #333333;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
